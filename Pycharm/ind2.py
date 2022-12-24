@@ -13,4 +13,5 @@ def del_number(type='even'):
 
 
 if __name__ == '__main__':
-    print(del_number(input('Введите even/odd: '))(map(int, input('Введите список целых чисел: ').split(', '))))
+    print(del_number(input('Введите even/odd: '))
+          (map(int, input('Введите список целых чисел: ').split(', '))))
